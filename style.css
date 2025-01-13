@@ -7,6 +7,14 @@ body{
     height: 100vh;
     background:linear-gradient(to top,black,gray) ;
 }
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+header h1{
+    color: white;
+}
 main{
     height: 500px;
     display: flex;
@@ -14,7 +22,8 @@ main{
     align-items: center;
 }
 #cal{
-    height: 250px;
+    height: 300px;
     width: 200px;
     background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
 }
