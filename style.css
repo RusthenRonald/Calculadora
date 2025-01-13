@@ -26,4 +26,12 @@ main{
     width: 200px;
     background-color: rgba(0, 0, 0, 0.658);
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#res{
+    background-color: rgb(58, 55, 51);
+    height: 40px;
+    margin-top: 20px;
+    width: 80%;
 }
