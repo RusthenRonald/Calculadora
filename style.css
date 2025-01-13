@@ -27,11 +27,17 @@ main{
     background-color: rgba(0, 0, 0, 0.658);
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 #res{
+    margin: auto;
     background-color: rgb(58, 55, 51);
-    height: 40px;
-    margin-top: 20px;
-    width: 80%;
+    height: 80px;
+    width: 170px;
+}
+.cont_botao{
+    margin: 10px;
+    background-color: aqua;
+    height: 20px;
 }
