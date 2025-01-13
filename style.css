@@ -34,11 +34,11 @@ main{
     margin: auto;
     background-color: rgb(58, 55, 51);
     height: 80px;
-    width: 170px;
+    width: 180px;
     margin-top: 10px;
 }
 .cont_botao{
-    margin: 10px;
+    margin: 5px;
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -48,9 +48,9 @@ button{
     justify-content: center;
     align-items: center;
     border: none;
+    flex-basis: 40px;
     height: 40px;
-    width: 40px;
-    padding: 10px;
     background:linear-gradient(to top,black,gray) ;
     color: white;
+    border-radius: 10px;
 }
