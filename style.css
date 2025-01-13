@@ -1,10 +1,20 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     height: 100vh;
     background:linear-gradient(to top,black,gray) ;
 }
+main{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #cal{
     height: 250px;
     width: 200px;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.658);
 }
