@@ -4,3 +4,7 @@ function add(number){
     tot+=number
     resultado.innerHTML=tot
 }
+function clear(){
+    tot=''
+    resultado.innerHTML=''
+}
