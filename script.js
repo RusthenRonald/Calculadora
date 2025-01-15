@@ -1,2 +1,6 @@
 var resultado= document.querySelector('.res')
-var botoes =document.querySelectorAll('.buttons button')
+tot=''
+function add(number){
+    tot+=number
+    resultado.innerHTML=tot
+}
