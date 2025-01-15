@@ -9,3 +9,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+.calculadora{
+    width: 300px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
+}
+.res{
+    height: 75px;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    font-size: 2em;
+}
